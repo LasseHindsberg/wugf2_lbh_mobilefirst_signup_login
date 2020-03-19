@@ -17,36 +17,66 @@ header {
     /* font-family: 'Lato', sans-serif; */
     color: #fff;
     font-size: 25px;
+    display: flex;
+    justify-content: space-between;
 }
+header a{
+    text-decoration: none;
+}
+
 #secondary{
     color: rgb(255,255,255,0.5);
     font-size: 25px;
-    justify-content: flex-end;
+    padding-top: 25px;
+    /* text-decoration: none; */
 }
-
+#secondary:hover{
+    color: #EF0B74;
+}
 main {
     font-family: 'Lato', sans-serif;
     color: #fff;
 }
 
 main button{
+    position: absolute;
     background-color: transparent;
     border: transparent;
+    right: 20px;
+    /* bottom: 200px; */
 }
 
 .wrapper {
-    width: 80%;
+    width: 100vw;
     margin: 0 auto;
-    grid-template-columns: 50vw 50vw;
-    grid-template-rows: 1fr 0.6fr 1.6fr 0.8fr;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 16px; */
 }
-
 .container {
     color: #EF0B74;
 }
+input[type=email] {
+    min-width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: thin solid rgb(255,255,255,0.35);
+}
+input[type=password] {
+    min-width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: thin solid rgb(255,255,255,0.35);
+
+}
+
 
 .psw {
-    color: rgb(255, 255, 255, 0.8)
+    color: rgb(255, 255, 255, 0.8);
+    float: right;
 }
 
 .psw a{

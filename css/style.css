@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    background-image: url(./../img/bg\ pattern.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: 2vw -1.4vh; */
+}
+header {
+    padding: 20px 0 20px 0;
+    font-family: 'Baloo Chettan 2', cursive;
+    /* font-family: 'Lato', sans-serif; */
+    color: #fff;
+    font-size: 25px;
+}
+#secondary{
+    color: rgb(255,255,255,0.5);
+    font-size: 25px;
+    justify-content: flex-end;
+}
+
+main {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+main button{
+    background-color: transparent;
+    border: transparent;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 1fr 0.6fr 1.6fr 0.8fr;
+}
+
+.container {
+    color: #EF0B74;
+}
+
+.psw {
+    color: rgb(255, 255, 255, 0.8)
+}
+
+.psw a{
+    color: rgb(255, 255, 255, 0.8);
+}

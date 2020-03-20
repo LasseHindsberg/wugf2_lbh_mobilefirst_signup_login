@@ -1,16 +1,20 @@
+/* RESET STYLING */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* BACKGROUND IMAGE */
 body {
     background-color: #000;
     background-image: url(./../img/bg\ pattern.png);
     background-size: contain;
     background-repeat: no-repeat;
-    /* background-position: 2vw -1.4vh; */
+    background-position: 20vh -14vw;
 }
+
+/* HEADER STYLING */
 header {
     padding: 20px 0 20px 0;
     font-family: 'Baloo Chettan 2', cursive;
@@ -28,16 +32,20 @@ header a{
     color: rgb(255,255,255,0.5);
     font-size: 25px;
     padding-top: 25px;
+    padding-left: 15px;
     /* text-decoration: none; */
 }
 #secondary:hover{
     color: #EF0B74;
 }
+
+/* MAIN STYLING */
 main {
     font-family: 'Lato', sans-serif;
     color: #fff;
 }
 
+/* STYLING OF BUTTON IN MAIN */
 main button{
     position: absolute;
     background-color: transparent;
@@ -46,16 +54,7 @@ main button{
     /* bottom: 200px; */
 }
 
-.wrapper {
-    width: 100vw;
-    margin: 0 auto;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 100px 1fr 100px;
-    align-items: center;
-    justify-content: center;
-    /* padding: 16px; */
-}
+/* STYLING OF FORM IN MAIN */
 .container {
     color: #EF0B74;
 }
@@ -70,10 +69,8 @@ input[type=password] {
     background-color: transparent;
     border: none;
     border-bottom: thin solid rgb(255,255,255,0.35);
-
 }
-
-
+/* STYLING OF "FORGOT PASSWORD" */
 .psw {
     color: rgb(255, 255, 255, 0.8);
     float: right;
@@ -81,4 +78,21 @@ input[type=password] {
 
 .psw a{
     color: rgb(255, 255, 255, 0.8);
+}
+/* STYLING OF WRAPPER */
+.wrapper {
+    width: 100vw;
+    margin: 0 auto;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* RESPONSIVEYNESS  */
+@media only screen and (min-width: 400px) {
+    body {
+        background-position:  85vw;
+    }
 }

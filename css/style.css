@@ -17,25 +17,28 @@ body {
 /* HEADER STYLING */
 header {
     padding: 20px 0 20px 0;
-    font-family: 'Baloo Chettan 2', cursive;
-    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Baloo Chettan 2', cursive; */
+    font-family: 'Lato', sans-serif;
     color: #fff;
     font-size: 25px;
     display: flex;
     justify-content: space-between;
 }
-header a{
+
+/* REMOVING UNDERLINE FROM LINK */
+header a {
     text-decoration: none;
 }
 
-#secondary{
-    color: rgb(255,255,255,0.5);
+/* SECONDARY HEADER STYLING [SIGN UP / LOG IN] */
+#secondary {
+    color: rgb(255, 255, 255, 0.5);
     font-size: 25px;
     padding-top: 25px;
     padding-left: 15px;
-    /* text-decoration: none; */
 }
-#secondary:hover{
+
+#secondary:hover {
     color: #EF0B74;
 }
 
@@ -46,7 +49,7 @@ main {
 }
 
 /* STYLING OF BUTTON IN MAIN */
-main button{
+main button {
     position: absolute;
     background-color: transparent;
     border: transparent;
@@ -58,27 +61,31 @@ main button{
 .container {
     color: #EF0B74;
 }
+
 input[type=email] {
     min-width: 100%;
     background-color: transparent;
     border: none;
-    border-bottom: thin solid rgb(255,255,255,0.35);
+    border-bottom: thin solid rgb(255, 255, 255, 0.35);
 }
+
 input[type=password] {
     min-width: 100%;
     background-color: transparent;
     border: none;
-    border-bottom: thin solid rgb(255,255,255,0.35);
+    border-bottom: thin solid rgb(255, 255, 255, 0.35);
 }
+
 /* STYLING OF "FORGOT PASSWORD" */
 .psw {
     color: rgb(255, 255, 255, 0.8);
     float: right;
 }
 
-.psw a{
+.psw a {
     color: rgb(255, 255, 255, 0.8);
 }
+
 /* STYLING OF WRAPPER */
 .wrapper {
     width: 100vw;
@@ -93,6 +100,6 @@ input[type=password] {
 /* RESPONSIVEYNESS  */
 @media only screen and (min-width: 400px) {
     body {
-        background-position:  85vw;
+        background-position: 85vw;
     }
 }
